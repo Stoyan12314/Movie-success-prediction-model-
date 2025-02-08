@@ -128,8 +128,6 @@ Execute the main Jupyter Notebook or Python scripts to perform data cleaning, fe
 ### Model Deployment:
 Load the saved model (`best_random_forest_model.pkl`) in your application to predict movie success based on user-input features.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
