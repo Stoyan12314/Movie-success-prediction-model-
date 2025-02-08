@@ -3,20 +3,20 @@
 This repository contains a comprehensive project that gathers, processes, analyzes, and models movie data in order to predict the success of movies. The project leverages data from multiple sources (including the Flixpatrol API and web scraping of movie budgets) and uses advanced data processing and machine learning techniques to build and optimize predictive models.
 
 ## Table of Contents
-- Overview
-- Data Requirements Documentation
-- Data Collection Process
-- Data Understanding & Exploratory Analysis
-- Data Preparation & Cleaning
-- Data Preprocessing & Feature Engineering
-- Modeling & Evaluation
-- Model Optimization and Deployment
-- Additional Scripts
-  - Web Scraping Movie Data
-  - Data Collection & Processing with Flixpatrol API
-- Requirements & Installation
-- Usage
-- License
+- [Overview](#overview)
+- [Data Requirements Documentation](#data-requirements-documentation)
+- [Data Collection Process](#data-collection-process)
+- [Data Understanding & Exploratory Analysis](#data-understanding--exploratory-analysis)
+- [Data Preparation & Cleaning](#data-preparation--cleaning)
+- [Data Preprocessing & Feature Engineering](#data-preprocessing--feature-engineering)
+- [Modeling & Evaluation](#modeling--evaluation)
+- [Model Optimization and Deployment](#model-optimization-and-deployment)
+- [Additional Scripts](#additional-scripts)
+  - [Web Scraping Movie Data](#web-scraping-movie-data)
+  - [Data Collection & Processing with Flixpatrol API](#data-collection--processing-with-flixpatrol-api)
+- [Requirements & Installation](#requirements--installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## Overview
 This project aims to predict the success of movies based on a variety of features including production budget, release date, cast and director metrics, genre information, and other metadata. The workflow involves:
@@ -118,8 +118,8 @@ pip install numpy pandas scikit-learn matplotlib seaborn requests beautifulsoup4
 Run the web scraping scripts or API data collection scripts as needed.
 
 ```bash
-python your_flixpatrol_data_script.py
-python your_web_scraping_script.py
+python flixpatrol_data_script.py
+python web_scraping_script.py
 ```
 
 ### Data Preparation and Modeling:
